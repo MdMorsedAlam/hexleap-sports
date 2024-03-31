@@ -1,9 +1,8 @@
 import Slide from "./Slider/Slide";
 
-
 const Collections = () => {
   return (
-    <div className="my-12">
+    <div className="py-12 dark:bg-gradient-to-b from-[#18282A] to-[#221A2C]">
       <div className="text-center space-y-3">
         <h1 className="md:text-5xl text-4xl font-extrabold">
           Collection Spotlight

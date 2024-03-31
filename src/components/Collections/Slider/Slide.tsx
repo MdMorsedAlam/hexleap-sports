@@ -90,9 +90,11 @@ const Slide = () => {
               <div className="w-6 h-6 dark:bg-zinc-900 bg-gray-300 rounded-full absolute -bottom-3 -right-5"></div>
             </div>
             <div className="p-3 flex-1 flex flex-col gap-3 bg-white dark:bg-zinc-800 text-center">
-              <h1 className="text-xl font-bold">{item.title}</h1>
-              <h3 className="text-xl">{item.date}</h3>
-              <p>{item.des}</p>
+              <div className="flex-1 flex flex-col gap-3">
+                <h1 className="text-xl font-bold">{item.title}</h1>
+                <h3 className="text-xl">{item.date}</h3>
+                <p>{item.des}</p>
+              </div>
               <div className="bg-zinc-950 p-2 flex-1 text-white">
                 <p>{item.name}</p>
               </div>
